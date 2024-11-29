@@ -53,7 +53,8 @@ env: {
 2. Replace your_gorest_api_token with a valid token obtained from the GoRest API.
 ⚠️ Security Note: Ensure you keep your API token secure and avoid committing it to public repositories.
 
-##**Run Tests**
+## **Tests Run**
+
 1. Run all tests:
    - Open the Cypress Test Runner with **`npx cypress open`** and select tests to run.
    - For headless execution, use **`npx cypress run`**.
