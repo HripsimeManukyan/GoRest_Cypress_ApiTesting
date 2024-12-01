@@ -8,8 +8,9 @@ Cypress API Test Suite for GoRest API is a test suite built with Cypress to auto
 
 ## **Introduction**
 
-This project was created to simplify and automate the testing of GoRest API endpoints.  
-It provides a reliable and reusable framework for validating API functionalities, including CRUD operations, ensuring compliance with expected behaviors.
+This project simplifies and automates testing of GoRest API endpoints.
+It provides a reusable framework for validating API functionalities, including CRUD operations, ensuring compliance with expected behaviors.
+Cypress, a powerful JavaScript-based testing framework, is used to deliver fast, reliable, and scalable API testing.
 
 ---
 
@@ -44,14 +45,17 @@ To install the Cypress API Test Suite, follow these steps:
 
 ### Pre-configuration
 
-1. Before running the tests, update the `cypress.config.js` file with your API token:
-```javascript
-env: {
-  token: 'your_gorest_api_token',
-},
+1. Update the `cypress.config.js` file with your API token:
+   ```javascript
+   env: {
+     token: 'your_gorest_api_token',
+   },
 
 2. Replace your_gorest_api_token with a valid token obtained from the GoRest API.
-⚠️ Security Note: Ensure you keep your API token secure and avoid committing it to public repositories.
+   
+⚠️ Security Note: Avoid committing API tokens directly to the repository. Use environment variables or tools like dotenv for secure management.
+Example: Create a .env file and reference it in your Cypress configuration.
+
 
 ## **Tests Run**
 
