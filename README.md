@@ -1,5 +1,4 @@
 # **Cypress API Test Suite for GoRest API**
-![Build Status](https://github.com/username/repo/actions/workflows/ci.yml/badge.svg)  
 ![License](https://img.shields.io/badge/license-MIT-green)  
 ![Node Version](https://img.shields.io/badge/node-%3E%3D14.x-brightgreen)  
 ![npm Version](https://img.shields.io/badge/npm-6.x-blue)  
